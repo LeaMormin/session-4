@@ -2,23 +2,26 @@
 	box-sizing: border-box;
 }
 
-html, body {
+html, body {text-align: center;
 	margin: 0;
 }
 
-header, footer {
+header {background-color: pink}, footer {
 
 }
 
-.centered {
+.centered {text-align: left;
 
 }
 
 header .subtitle {
 
+
 }
 
-h1 {
+h1 {margin: auto;
+	color:purple;
+	font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -31,23 +34,27 @@ ul li {
 	width: 50%;
 }
 
-main {
-
-}
+main {margin: auto;}
 
 section {
 
 }
 
 h2 {
+	color:purple;
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
 
 }
 
 h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
 
 }
 
 p {
+
 
 }
 
@@ -64,5 +71,6 @@ p {
 }
 
 footer h2 {
+
 
 }
